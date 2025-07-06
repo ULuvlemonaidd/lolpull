@@ -7,6 +7,7 @@ def clear():
 
 def display_menu():
     clear()
+    print("Made by: Lemonaidd")
     print(r"""
 ██╗      ██████╗ ██╗             
 ██║     ██╔═══██╗██║             
@@ -22,7 +23,7 @@ def display_menu():
 ██║     ╚██████╔╝███████╗███████╗
 ╚═╝      ╚═════╝ ╚══════╝╚══════╝
     """)
-    print("\033[1;32mBufferOverflow  Pull Tool!\033[0m")
+    print("\033[1;32m LOL Social Pull Tool!\033[0m")
     print("\033[1;34m1. Discord IP Puller\033[0m")
     print("\033[1;34m2. Xbox IP Puller\033[0m")
     print("\033[1;34m3. Playstation IP Puller\033[0m")
