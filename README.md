@@ -1,8 +1,9 @@
 
-# lolpull-ip
+# LOLPull 
 
 🎮 IP Lookup Tool (Xbox, PlayStation, Skype, TikTok)
-A lightweight IP lookup tool for use in Termux (Android) and iSH Shell (iOS). Supports IP address tracking for:
+A lightweight IP lookup tool for use in Termux (Android) and iSH Shell (iOS). Supports IP address Lookup for:
+
 ✅ Xbox
 
 ✅ PlayStation
@@ -21,7 +22,10 @@ iSH Shell (iOS)
 
 
 📦 Requirements
+
 Python 3
+
+pip
 
 Git
 
@@ -51,3 +55,6 @@ git clone https://github.com/ULuvlemonaidd/lolpull
 cd lolpull
 
 python3 lolpull.py
+
+<img width="385" height="476" alt="Screenshot 2025-07-16 11 51 56 PM" src="https://github.com/user-attachments/assets/b405f96e-dda1-4d36-b8ae-dc65a7ed73a2" />
+
