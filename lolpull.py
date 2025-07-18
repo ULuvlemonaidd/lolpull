@@ -27,7 +27,7 @@ def display_menu():
     print("\033[1;34m1. Xbox IP Lookup\033[0m")
     print("\033[1;34m2. Playstation IP Lookup\033[0m")
     print("\033[1;34m3. Skype IP Lookup\033[0m")
-    print("\033[1;34m3. TikTok IP Lookup\033[0m")
+    print("\033[1;34m4. TikTok IP Lookup\033[0m")
     print("\033[1;31m0. Exit\033[0m")
 
 
@@ -130,6 +130,10 @@ def display_menu():
 
 
 
+def valid_passkey():
+    passkey = "bot"   # Set passkey here
+    user_input = input(Fore.GREEN + "Enter passkey to access the tool: ")
+    return user_input == passkey
 
 
 
@@ -307,6 +311,10 @@ def pull_ip(username):
         return "Oh no! seems like we found no IP associated with that user in our database"
 
 def main():
+    passkey = input("Enter the passkey to access the tool: ")
+    if passkey != "bot":
+        print(Fore.RED + "Invalid passkey!")
+        sys.exit()
     while True:
         display_menu()
         choice = input("\nSelect an option: ")
